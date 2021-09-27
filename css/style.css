@@ -1,12 +1,3 @@
-/*
-  Theme Name: Edubin - LMS Education HTML Template
-  Author: ZeTheme
-  Author URL: https://themeforest.net/user/pixelcurve
-  Support: zetheme24@gmail.com
-  Description: Creative  HTML5 template.
-  Version: 1.1
-*/
-
 /* CSS Index 
 -----------------------------------
 1. Theme default
@@ -57,9 +48,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  /* max-width: 100%; */
-}
+/* img {
+  max-width: 100%;
+} */
 
 a:focus,
 input:focus,
@@ -88,7 +79,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #1d2025;
+  color: #3d3d3d;
   margin: 0px;
 }
 
@@ -145,14 +136,14 @@ p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: 1px solid #17c0f3;
+  border: 1px solid #05bff8;
   padding: 0 35px;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   line-height: 50px;
   border-radius: 5px;
-  color: #000a8f;
+  color: #0a14a7;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -163,16 +154,16 @@ p {
 }
 .main-btn:hover {
   color: #17c0f3;
-  border-color: #000a8f;
-  background-color: #000a8f;
+  border-color: #0a14a7;
+  background-color: #0a14a7;
 }
 
 /*===== All Section Title Style =====*/
 
-.section-title {
-}
+/* .section-title {
+} */
 .section-title h5 {
-  color: #000a8f;
+  color: #0a14a7;
   position: relative;
   padding-bottom: 12px;
   font-size: 26px;
@@ -182,13 +173,13 @@ p {
   position: absolute;
   width: 35px;
   height: 2px;
-  background-color: #17c0f3;
+  background-color: #05b0ce;
   bottom: 0;
   left: 0;
 }
 .section-title h2 {
   font-size: 48px;
-  color: #000;
+  color: rgb(36, 36, 36);
   padding-top: 10px;
 }
 
@@ -204,7 +195,7 @@ p {
   z-index: 9999;
 }
 .preloader .color-1 {
-  background-color: #17c0f3 !important;
+  background-color: #0581e6 !important;
 }
 .rubix-cube {
   border: 1px solid #fff;
@@ -220,7 +211,7 @@ p {
 .rubix-cube .layer {
   width: 14px;
   height: 14px;
-  background-color: #000a8f;
+  background-color: #0a14a7;
   border: 1px solid #fff;
   position: absolute;
 }
@@ -584,14 +575,14 @@ p {
 /*===== Header top =====*/
 
 .header-top {
-  background-color: #000a8f;
+  background-color: #0a14a7;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.header-contact {
+/* .header-contact {
 }
 .header-contact ul {
-}
+} */
 .header-contact ul li {
   display: inline-block;
   margin-right: 45px;
@@ -600,8 +591,8 @@ p {
   margin-right: 0;
 }
 
-.header-contact ul li img {
-}
+/* .header-contact ul li img {
+} */
 .header-contact ul li span {
   color: #dee2e6;
   font-size: 15px;
@@ -609,8 +600,8 @@ p {
   margin-left: 10px;
 }
 
-.header-opening-time {
-}
+/* .header-opening-time {
+} */
 .header-opening-time p {
   color: #dee2e6;
   font-size: 15px;
@@ -650,7 +641,7 @@ p {
 }
 .support-button .support .cont span {
   font-size: 18px;
-  color: #000a8f;
+  color: #0a14a7;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -720,7 +711,7 @@ p {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #000a8f;
+  color: #0a14a7;
   text-transform: uppercase;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
@@ -729,14 +720,14 @@ p {
 
 .navigation .navbar .navbar-nav > li > a.active,
 .navigation .navbar .navbar-nav > li > a:hover {
-  color: #17c0f3;
+  color: #17c0f3da;
 }
 
 .navigation .navbar .navbar-nav li .sub-menu {
   position: absolute;
   top: 110%;
   left: 0;
-  background-color: #000a8f;
+  background-color: #1374b4;
   width: 200px;
   opacity: 0;
   visibility: hidden;
@@ -762,7 +753,7 @@ p {
 .navigation .navbar .navbar-nav li .sub-menu li a.active,
 .navigation .navbar .navbar-nav li .sub-menu li a:hover {
   padding-left: 20px;
-  color: #17c0f3;
+  color: #0b148f;
 }
 
 .sub-nav-toggler {
@@ -783,7 +774,7 @@ p {
 .navbar .navbar-toggler .icon-bar {
   width: 30px;
   height: 2px;
-  background-color: #000a8f;
+  background-color: #0a14a7;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -818,7 +809,7 @@ p {
 
 .right-icon ul li a {
   font-size: 18px;
-  color: #000a8f;
+  color: #0a14a7;
   position: relative;
   padding-right: 7px;
 }
@@ -883,7 +874,7 @@ p {
 
 .navigation-3.sticky .navbar .navbar-nav li a,
 .navigation-3.sticky .right-icon ul li a {
-  color: #000a8f;
+  color: #0a14a7;
 }
 .navigation-3.sticky .navbar .navbar-nav > li > a.active,
 .navigation-3.sticky .navbar .navbar-nav > li > a:hover {
@@ -894,7 +885,7 @@ p {
   background-color: #fff;
 }
 .navigation-3.sticky .navbar .navbar-toggler .icon-bar {
-  background-color: #000a8f;
+  background-color: #0a14a7;
 }
 
 /*===== SEARCH BOX =====*/
@@ -945,8 +936,8 @@ p {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-color: #fff;
-  border: 2px solid #000a8f;
-  color: #000a8f;
+  border: 2px solid #0a14a7;
+  color: #0a14a7;
   padding-left: 20px;
   border-radius: 50px;
 }
@@ -959,7 +950,7 @@ p {
   padding: 0;
   border: 0;
   background-color: transparent;
-  color: #000a8f;
+  color: #0a14a7;
   cursor: pointer;
   font-size: 16px;
 }
@@ -1087,7 +1078,7 @@ p {
 .slider-search .nice-select span {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  color: #000a8f;
+  color: #0a14a7;
   font-weight: 400;
 }
 .slider-search .nice-select .list {
@@ -1097,7 +1088,7 @@ p {
 }
 .slider-search .nice-select::after {
   border-bottom: 0;
-  border-right: 8px solid #000a8f;
+  border-right: 8px solid #0a14a7;
   border-top: 8px solid transparent;
   height: 0px;
   margin-top: -4px;
@@ -1120,7 +1111,7 @@ p {
   padding: 0;
 }
 .slider-search .main-btn:hover {
-  border-color: #000a8f;
+  border-color: #0a14a7;
 }
 
 .slider-feature {
@@ -1167,7 +1158,7 @@ p {
 }
 
 .category {
-  background-color: #000a8f;
+  background-color: #0a14a7;
   border-radius: 10px;
   margin-top: -150px;
   position: relative;
@@ -1332,7 +1323,7 @@ p {
 }
 
 .apply-color-1 {
-  background-color: #000a8f;
+  background-color: #0a14a7;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -1390,7 +1381,7 @@ p {
 }
 .singel-course .thum .price span {
   font-size: 14px;
-  color: #000a8f;
+  color: #0a14a7;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   width: 55px;
@@ -1550,7 +1541,7 @@ p {
   text-align: center;
   font-size: 24px;
   background-color: #17c0f3;
-  color: #000a8f;
+  color: #0a14a7;
   border-radius: 50%;
 }
 
@@ -1699,7 +1690,7 @@ p {
 }
 .singel-publication .image .add-cart ul li a:hover {
   background-color: #17c0f3;
-  color: #000a8f;
+  color: #0a14a7;
 }
 
 .singel-publication .cont {
@@ -1790,7 +1781,7 @@ p {
   text-align: center;
   background-color: #17c0f3;
   border-radius: 50%;
-  color: #000a8f;
+  color: #0a14a7;
   font-size: 18px;
 }
 .singel-testimonial .testimonial-cont {
@@ -1863,7 +1854,7 @@ p {
   margin-right: 8px;
 }
 .singel-news .news-cont ul li a span {
-  color: #000a8f;
+  color: #0a14a7;
 }
 .singel-news .news-cont a {
   display: block;
@@ -2133,7 +2124,7 @@ p {
   margin-top: -154px;
 }
 .category-form .form-title {
-  background-color: #000a8f;
+  background-color: #0a14a7;
   padding-top: 35px;
   padding-bottom: 40px;
 }
@@ -2192,7 +2183,7 @@ p {
 }
 .singel-course-2 > .thum .price span {
   font-size: 14px;
-  color: #000a8f;
+  color: #0a14a7;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   width: 55px;
@@ -2289,7 +2280,7 @@ p {
 .counter-3 {
 }
 .counter-3 p {
-  color: #000a8f;
+  color: #0a14a7;
   font-weight: 600;
 }
 
@@ -2337,7 +2328,7 @@ p {
 }
 .teachers-2 .teachers-2-singel .cont span {
   font-size: 14px;
-  color: #000a8f;
+  color: #0a14a7;
 }
 .teachers-2 .teachers-2-singel .cont span i {
   margin-right: 5px;
@@ -2349,7 +2340,7 @@ p {
 }
 
 .happy-student {
-  background-color: #000a8f;
+  background-color: #0a14a7;
   padding-top: 65px;
   padding-left: 80px;
   padding-right: 80px;
@@ -2358,7 +2349,7 @@ p {
   position: relative;
 }
 .happy-student {
-  background-color: #000a8f;
+  background-color: #0a14a7;
   padding-top: 65px;
   padding-left: 80px;
   padding-right: 80px;
@@ -2429,7 +2420,7 @@ p {
     rgba(7, 41, 77, 0.3) 10%,
     rgba(7, 41, 77, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d07294d', endColorstr='#000a8f',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d07294d', endColorstr=' #0a14a7',GradientType=1 );
 }
 
 .event-2 .event-title h3 {
@@ -2531,7 +2522,7 @@ p {
   border-top-right-radius: 5px;
 }
 .category-form-3 .form-title h3 {
-  color: #000a8f;
+  color: #0a14a7;
 }
 .category-form-3 .form-title span {
   font-weight: 600;
@@ -2541,7 +2532,7 @@ p {
 }
 .category-form-3 .main-btn:hover {
   color: #17c0f3;
-  border-color: #000a8f;
+  border-color: #0a14a7;
 }
 
 /*=====================================================
@@ -2678,7 +2669,7 @@ p {
 }
 .courses-pagination .pagination .page-item a {
   font-size: 15px;
-  color: #000a8f;
+  color: #0a14a7;
   width: 40px;
   height: 40px;
   line-height: 36px;
@@ -3080,7 +3071,7 @@ p {
 
 .releted-courses .title h3 {
   font-size: 30px;
-  color: #000a8f;
+  color: #0a14a7;
 }
 
 .course-features {
@@ -3091,7 +3082,7 @@ p {
 .course-features h4,
 .You-makelike h4 {
   font-size: 24px;
-  color: #000a8f;
+  color: #0a14a7;
   padding-bottom: 15px;
 }
 .course-features ul {
@@ -3335,7 +3326,7 @@ p {
 }
 .events-address ul li .singel-address .cont h6 {
   font-size: 15px;
-  color: #000a8f;
+  color: #0a14a7;
 }
 .events-address ul li .singel-address .cont span {
   font-size: 14px;
@@ -3538,7 +3529,7 @@ p {
 .saidbar .categories h4,
 .saidbar .saidbar-post h4 {
   font-size: 24px;
-  color: #000a8f;
+  color: #0a14a7;
 }
 .saidbar .categories ul {
   padding-top: 15px;
@@ -3946,7 +3937,7 @@ p {
 }
 .releted-item .title h3 {
   font-size: 30px;
-  color: #000a8f;
+  color: #0a14a7;
 }
 
 /*=====================================================
@@ -4024,8 +4015,8 @@ p.form-message.error {
   width: 50px;
   line-height: 50px;
   border-radius: 50%;
-  border: 1px solid #000a8f;
-  color: #000a8f;
+  border: 1px solid #0a14a7;
+  color: #0a14a7;
   font-size: 24px;
   text-align: center;
 }
